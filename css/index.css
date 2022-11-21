@@ -1,0 +1,55 @@
+/* this for google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/* addding bopdy css */
+body{
+    background-image:url(../assets/img/index-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+/* this os for elige text css */
+.text{
+    font-family: 'Poppins';
+    font-weight: 700;
+    color:#fff;
+    font-size:60px;
+    text-align: center;
+    margin-top:100px;
+    
+}
+/* this is for lets go btn css */
+.btn-1{
+   display: flex;
+  justify-content: center;
+  margin-top:100px;
+
+}
+button{
+    width:60vw;
+    background-color: #fff;
+    border-radius:100px;
+   
+}
+.lets{
+    font-family:'poppins';
+    font-weight: 700;
+    font-size:35px;
+}
+.btn-1 i{
+    margin-top: 5px;
+}
+/* main body flexcss */
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
