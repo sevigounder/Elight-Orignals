@@ -10,7 +10,8 @@ a{
 }
 /* addding bopdy css */
 body{
-    background-image:url(../assets/img/index-img.jpg);
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.514) 21%, rgba(0, 0, 0, 0.575) 62%),
+    url(../assets/img/bg-sm-003.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -24,19 +25,26 @@ body{
     font-size:60px;
     text-align: center;
     margin-top:100px;
+    background:linear-gradient(rgba(0, 0, 0, 0.664),red,red,rgb(0, 0, 0) );
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-box-shadow: 1px 1px 9px 5px #000000; 
+box-shadow: 1px 1px 9px 5px #000000;
     
 }
 /* this is for lets go btn css */
 .btn-1{
    display: flex;
   justify-content: center;
-  margin-top:100px;
+  margin-top:150px;
 
 }
 button{
     width:60vw;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.678);
     border-radius:100px;
+    box-sizing:content-box;
    
 }
 .lets{
@@ -44,9 +52,7 @@ button{
     font-weight: 700;
     font-size:35px;
 }
-.btn-1 i{
-    margin-top: 5px;
-}
+
 /* main body flexcss */
 .body{
     display: flex;
